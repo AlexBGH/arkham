@@ -10,12 +10,10 @@ import { HeaderComponent } from '../core/components/header/header.component';
   ],
   imports: [
     CommonModule,
-    MaterialModule,
-    ReactiveFormsModule
+    MaterialModule
   ],
   exports: [
     MaterialModule,
-    ReactiveFormsModule,
     HeaderComponent
   ]
 })
