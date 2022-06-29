@@ -6,15 +6,15 @@ import { HeaderComponent } from '../core/components/header/header.component';
 
 @NgModule({
   declarations: [
-    HeaderComponent
   ],
   imports: [
     CommonModule,
-    MaterialModule
+    MaterialModule,
+    ReactiveFormsModule
   ],
   exports: [
     MaterialModule,
-    HeaderComponent
+    ReactiveFormsModule
   ]
 })
 export class SharedModule { }
